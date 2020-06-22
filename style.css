@@ -1,0 +1,64 @@
+  body {
+    font-size: 1em;
+    line-height: 1.15;
+  }
+  
+  main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  #title, #description {
+    margin: auto;
+    margin-top: 25px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #description {
+    margin-top: 5px;
+    font-size: 20px;
+  }
+  
+  .map {
+    margin: auto;
+  }
+  
+  svg {
+    margin-left: 80px;
+  }
+  
+  .cell:hover {
+    stroke: black;
+    opacity: 1;
+  }
+  
+  #tooltip {
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background-color: grey;
+    opacity: 0.8;
+  }
+  
+  .hidden {
+    display: none !important;
+  }
